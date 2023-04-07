@@ -1,6 +1,7 @@
 import React from 'react';
 import "./index.scss";
 import imga from "../../assets/images/logos.svg";
+import burger from "../../assets/images/b.svg";
 function Header() {
     return (
         <>
@@ -15,7 +16,7 @@ function Header() {
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
-                        <img className="burger"  alt="" />
+                        <img className="burger" src={burger}  alt="" />
                     </nav>
 
 
