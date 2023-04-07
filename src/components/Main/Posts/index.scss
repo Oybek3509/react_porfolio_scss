@@ -1,0 +1,114 @@
+.Posts{
+    background-color: #EDF7FA;
+    margin-bottom: 30px;
+  }
+  .Posts_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .Posts_title h2 {
+    color: #21243D;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+  }
+  .Posts_title p {
+    color: #00A8CC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    
+  }
+  .posts_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  
+  }
+  .posts_wrap_one{
+    max-width: 418px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px 24px 4px 24px;
+    margin-bottom: 32px;
+  
+   
+  }
+  .posts_wrap_one h3 {
+     max-width: 354px;
+     color:  #21243D;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 37px;
+    
+  }
+  .posts_wrap_one p {
+    max-width: 354px;
+    color:  #21243D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    
+  }
+  
+  
+  
+  .posts_wrap_two{
+    max-width: 418px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 24px 24px 4px 24px;
+    margin-bottom: 32px;
+  
+   
+  }
+  .posts_wrap_two h3 {
+     max-width: 354px;
+     color:  #21243D;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 37px;
+    
+  }
+  .posts_wrap_two p {
+    max-width: 354px;
+    color:  #21243D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 20px;
+    
+  }
+  @media only screen and (max-width: 650px) {
+    .posts_wrap{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 475px) {
+    .Posts_title p {
+      display: none;
+    }
+    .Posts_title h2 {
+     margin:  0 auto;
+    }
+  }
